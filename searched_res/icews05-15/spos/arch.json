@@ -1,0 +1,8 @@
+[
+    {
+        "seed": 1,
+        "dataset": "icews05-15/",
+        "search_mode": "spos",
+        "genotype": "rgcn||sa||lc_concat||rgcn||identity||lc_concat||compgcn_rotate||gru||lf_mean"
+    }
+]

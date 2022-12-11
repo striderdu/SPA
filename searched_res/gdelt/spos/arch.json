@@ -1,0 +1,8 @@
+[
+    {
+        "seed": 1,
+        "dataset": "gdelt/",
+        "search_mode": "spos",
+        "genotype": "compgcn_rotate||gru||lc_concat||rgcn||gru||lc_skip||compgcn_rotate||gru||lf_mean"
+    }
+]

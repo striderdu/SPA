@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "root": {
+    "handlers": [
+      "console_handler",
+      "file_handler"
+    ],
+    "level": "DEBUG"
+  },
+  "handlers": {
+    "console_handler": {
+      "class": "logging.StreamHandler",
+      "level": "DEBUG",
+      "formatter": "console_formatter"
+    },
+    "file_handler": {
+      "class": "logging.FileHandler",
+      "level": "DEBUG",
+      "formatter": "file_formatter",
+      "filename": "python_logging.log",
+      "encoding": "utf8",
+      "mode": "w"
+    }
+  },
+  "formatters": {
+    "console_formatter": {
+      "format": "%(asctime)s - %(name)s - [%(levelname)s] - %(message)s"
+    },
+    "file_formatter": {
+      "format": "%(asctime)s - [%(levelname)s] - %(message)s"
+    }
+  }
+}
